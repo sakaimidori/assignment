@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main {
+  width: 960px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.menu-box {
+  margin: 50px 0;
+  background-color: #EEEEEE;
+  position: relative;
+  padding:10px;
+  width:300px;
+ }
+
+.menu-box:nth-child(1) {
+  margin-right: 30px;
+  }
+  
+.menu-box:nth-child(2) {
+  margin-right: 30px;
+}
+
+.step-box {
+  background-color: #FF9A4B;
+  color: white;
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.menu-image1 {
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+}
+
+.menu-image2 {
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+}
+
+.menu-image3 {
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 150px;
+}
+
+.menu-box-title {
+  margin: 15px 0 5px 0;
+}
+ 
+footer {
+  height: 50px;
+  background-color: #AAAAAA
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  
+  main {
+    width: 100%;
+    margin: 50px 0;
+    display: block;
+  }
+  
+  .menu-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .menu-box:nth-child(1) {
+  margin-bottom: 20px;
+  }
+  
+  .menu-box:nth-child(2) {
+  margin-bottom: 20px;
+  }
+  
+  .menu-image1 {
+  background-position: center;
+  }
+  
+  .menu-image2 {
+    background-position: center;
+  }
+  
+  .menu-image3 {
+    background-position: center;
+  }
+}
